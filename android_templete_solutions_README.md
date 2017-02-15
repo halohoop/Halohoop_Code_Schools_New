@@ -21,5 +21,5 @@
 * + [Android 获取View在屏幕中的位置](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#010android-%E8%8E%B7%E5%8F%96view%E5%9C%A8%E5%B1%8F%E5%B9%95%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE)
 * + Android 官方demo，TextView设置富文本，简单一眼就懂.
 * + [android.support.v4.widget.DrawerLayout使用方法](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#012androidsupportv4widgetdrawerlayout%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
-* + 
-* + 
+* + [如何使用Camera2 + TextureView实现摄像头实时预览](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/Android_Notes/how%20to%20use%20New%20Camera2%20with%20TextureView.md#how-to-use-new-camera2-with-textureview)
+* + [add custom dialog templete class](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#002%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6%E5%AF%B9%E8%AF%9D%E6%A1%86)
