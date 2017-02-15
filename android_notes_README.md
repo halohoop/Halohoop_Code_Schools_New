@@ -6,6 +6,7 @@
 * +[Andorid三行代码实现Canvas清屏](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/Andorid%E4%B8%89%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0Canvas%E6%B8%85%E5%B1%8F.md#andorid%E4%B8%89%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0canvas%E6%B8%85%E5%B1%8F)
 * +[Andorid获取Activity方向](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/Andorid%E8%8E%B7%E5%8F%96Activity%E6%96%B9%E5%90%91.md#andorid%E8%8E%B7%E5%8F%96activity%E6%96%B9%E5%90%91)
 * +[Andorid获取当前gps是否开启](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/Andorid%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8Dgps%E6%98%AF%E5%90%A6%E5%BC%80%E5%90%AF.md#andorid%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8Dgps%E6%98%AF%E5%90%A6%E5%BC%80%E5%90%AF)
+* +[Andorid跳转到开启GPS的设置界面](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/Andorid%E8%B7%B3%E8%BD%AC%E5%88%B0%E5%BC%80%E5%90%AFGPS%E7%9A%84%E8%AE%BE%E7%BD%AE%E7%95%8C%E9%9D%A2.md#andorid%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8Dgps%E6%98%AF%E5%90%A6%E5%BC%80%E5%90%AF)
 * +[Andorid获取手机旋转方向](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/Andorid%E8%8E%B7%E5%8F%96%E6%89%8B%E6%9C%BA%E6%97%8B%E8%BD%AC%E6%96%B9%E5%90%91.md#andorid%E8%8E%B7%E5%8F%96%E6%89%8B%E6%9C%BA%E6%97%8B%E8%BD%AC%E6%96%B9%E5%90%91)
 * +Andorid获取是否处于锁屏状态
 * +Andorid获取状态栏高度
@@ -26,3 +27,13 @@ Android_KeyCode
 * +[In eclipse,how to link jar and source folder,step in step](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/how%20to%20link%20jar%20and%20source%20folder%2Cstep%20by%20step.md#in-eclipsehow-to-link-jar-and-source-folderstep-in-step)
 * +[优雅的让Fragment监听返回键](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/%E4%BC%98%E9%9B%85%E7%9A%84%E8%AE%A9Fragment%E7%9B%91%E5%90%AC%E8%BF%94%E5%9B%9E%E9%94%AE.md#%E4%BC%98%E9%9B%85%E7%9A%84%E8%AE%A9fragment%E7%9B%91%E5%90%AC%E8%BF%94%E5%9B%9E%E9%94%AE)
 * +[使用android 调用震动的例子](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/%E4%BD%BF%E7%94%A8android%20%E8%B0%83%E7%94%A8%E9%9C%87%E5%8A%A8%E7%9A%84%E4%BE%8B%E5%AD%90.md#%E4%BD%BF%E7%94%A8android-%E8%B0%83%E7%94%A8%E9%9C%87%E5%8A%A8%E7%9A%84%E4%BE%8B%E5%AD%90)
+* +[在eclipse中如何连接jar包和原码，使得码代码的时候直接可以ctrl点进去看到原码](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/how%20to%20link%20jar%20and%20source%20folder%2Cstep%20by%20step.md#in-eclipsehow-to-link-jar-and-source-folderstep-in-step)
+* +[将光标所在代码行向上向下移动 move line up or down](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/Android_Studio_Shortcut_Keymap_Smmary.md#002%E5%B0%86%E5%85%89%E6%A0%87%E6%89%80%E5%9C%A8%E4%BB%A3%E7%A0%81%E8%A1%8C%E5%90%91%E4%B8%8A%E5%90%91%E4%B8%8B%E7%A7%BB%E5%8A%A8-move-line-up-or-down)
+* +[【Super Useful】将光标所在代码行所在的代码组向上向下移动 move statement up or down](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/Android_Studio_Shortcut_Keymap_Smmary.md#003super-useful%E5%B0%86%E5%85%89%E6%A0%87%E6%89%80%E5%9C%A8%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%89%80%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E7%BB%84%E5%90%91%E4%B8%8A%E5%90%91%E4%B8%8B%E7%A7%BB%E5%8A%A8-move-statement-up-or-down)
+* +[Andorid get status bar height](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/Andorid%E8%8E%B7%E5%8F%96%E7%8A%B6%E6%80%81%E6%A0%8F%E9%AB%98%E5%BA%A6.md#andorid%E8%8E%B7%E5%8F%96%E7%8A%B6%E6%80%81%E6%A0%8F%E9%AB%98%E5%BA%A6)
+* +
+* +
+* +
+* +
+* +
+* +
