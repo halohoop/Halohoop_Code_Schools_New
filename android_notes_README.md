@@ -35,5 +35,3 @@ Android_KeyCode
 * +
 * +
 * +
-* +
-* +
