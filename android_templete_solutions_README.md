@@ -1,7 +1,7 @@
 # Halohoop_Code_Schools_New branch of android_templete_solutions
 ## Change log
 * + [自定义控件高效SurfaceView模板，保持模板不动，然后直接和普通控件在onDraw等方法开发就好了](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#001%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6%E9%AB%98%E6%95%88surfaceview%E6%A8%A1%E6%9D%BF%E4%BF%9D%E6%8C%81%E6%A8%A1%E6%9D%BF%E4%B8%8D%E5%8A%A8%E7%84%B6%E5%90%8E%E7%9B%B4%E6%8E%A5%E5%92%8C%E6%99%AE%E9%80%9A%E6%8E%A7%E4%BB%B6%E5%9C%A8ondraw%E7%AD%89%E6%96%B9%E6%B3%95%E5%BC%80%E5%8F%91%E5%B0%B1%E5%A5%BD%E4%BA%86)
-* + 自定义控件对话框
+* + [自定义控件对话框](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#002%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6%E5%AF%B9%E8%AF%9D%E6%A1%86)
 * + [添加禁止滑动的ViewPager，模板代码](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#003%E7%A6%81%E6%AD%A2%E6%BB%91%E5%8A%A8%E7%9A%84viewpager)
 * + [RecyclerView分隔线](https://github.com/halohoopHalohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#004recyclerview%E5%88%86%E9%9A%94%E7%BA%BF)
 * + [Android通话模块的动画工具类 AnimUtils.java](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#005android%E9%80%9A%E8%AF%9D%E6%A8%A1%E5%9D%97%E7%9A%84%E5%8A%A8%E7%94%BB%E5%B7%A5%E5%85%B7%E7%B1%BB-animutilsjava)
@@ -19,7 +19,7 @@
 * + [Open Activity in a Service](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#008open-activity-in-a-service)
 * + [在view中监听home键、菜单键和返回键，构建回调](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#009%E5%9C%A8view%E4%B8%AD%E7%9B%91%E5%90%AChome%E9%94%AE%E8%8F%9C%E5%8D%95%E9%94%AE%E5%92%8C%E8%BF%94%E5%9B%9E%E9%94%AE%E6%9E%84%E5%BB%BA%E5%9B%9E%E8%B0%83)
 * + [Android 获取View在屏幕中的位置](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#010android-%E8%8E%B7%E5%8F%96view%E5%9C%A8%E5%B1%8F%E5%B9%95%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE)
-* + Android 官方demo，TextView设置富文本，简单一眼就懂.
+* + [Android 官方demo，TextView设置富文本，简单一眼就懂.](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#011android-%E5%AE%98%E6%96%B9demotextview%E8%AE%BE%E7%BD%AE%E5%AF%8C%E6%96%87%E6%9C%AC%E7%AE%80%E5%8D%95%E4%B8%80%E7%9C%BC%E5%B0%B1%E6%87%82)
 * + [android.support.v4.widget.DrawerLayout使用方法](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#012androidsupportv4widgetdrawerlayout%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
 * + [如何使用Camera2 + TextureView实现摄像头实时预览](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/Android_Notes/how%20to%20use%20New%20Camera2%20with%20TextureView.md#how-to-use-new-camera2-with-textureview)
 * + [add custom dialog templete class](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#002%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6%E5%AF%B9%E8%AF%9D%E6%A1%86)
