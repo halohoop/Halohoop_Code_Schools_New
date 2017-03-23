@@ -351,7 +351,30 @@ getLeft , getTop, getBottom, getRight,  这一组是获取相对在它父亲布�
 
 2.6.通过api---DrawerLayout.isDrawerOpen获取是否打开；
 
+## 013.在XML中使用属性动画模板
+* 其实和视图动画（Animation）的XML动画很相似的
 
+---
+	<set xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:ordering="together">
+	    <objectAnimator
+	        android:duration="2000"
+	        android:propertyName="translationX"
+	        android:repeatCount="2"
+	        android:repeatMode="restart"
+	        android:valueFrom="0"
+	        android:valueTo="200" 
+	        android:valueType="floatType"/>
+	</set>
+
+* 代码中如何调用
+
+---
+    public void anim(View v){
+    	Animator anim = AnimatorInfalter.loadAnimator(this,R.animator.XXXX);
+    	anim.setaTarget(targetView);
+    	anim.start();
+    }
 
 
 
