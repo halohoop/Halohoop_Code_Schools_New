@@ -31,7 +31,7 @@ Android_KeyCode
 * +[将光标所在代码行向上向下移动 move line up or down](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/Android_Studio_Shortcut_Keymap_Smmary.md#002%E5%B0%86%E5%85%89%E6%A0%87%E6%89%80%E5%9C%A8%E4%BB%A3%E7%A0%81%E8%A1%8C%E5%90%91%E4%B8%8A%E5%90%91%E4%B8%8B%E7%A7%BB%E5%8A%A8-move-line-up-or-down)
 * +[【Super Useful】将光标所在代码行所在的代码组向上向下移动 move statement up or down](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/Android_Studio_Shortcut_Keymap_Smmary.md#003super-useful%E5%B0%86%E5%85%89%E6%A0%87%E6%89%80%E5%9C%A8%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%89%80%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E7%BB%84%E5%90%91%E4%B8%8A%E5%90%91%E4%B8%8B%E7%A7%BB%E5%8A%A8-move-statement-up-or-down)
 * +[Andorid get status bar height](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/Android_Notes/Andorid%E8%8E%B7%E5%8F%96%E7%8A%B6%E6%80%81%E6%A0%8F%E9%AB%98%E5%BA%A6.md#andorid%E8%8E%B7%E5%8F%96%E7%8A%B6%E6%80%81%E6%A0%8F%E9%AB%98%E5%BA%A6)
-* +
+* +[Android属性动画的若干种常用属性](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_notes/Android/android_notes/Android%E5%B1%9E%E6%80%A7%E5%8A%A8%E7%94%BB%E7%9A%84%E8%8B%A5%E5%B9%B2%E7%A7%8D%E5%B8%B8%E7%94%A8%E5%B1%9E%E6%80%A7.md)
 * +
 * +
 * +
