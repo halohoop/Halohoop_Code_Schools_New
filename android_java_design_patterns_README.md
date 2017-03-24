@@ -1,3 +1,3 @@
 # Halohoop\_Code_Schools\_New branch of android\_java\_design\_patterns
 ## Change log
-* nothing yet
+* + [Factory Pattern Usage Demo Project](https://github.com/halohoop/Halohoop_Code_Schools_New/tree/android_java_design_patterns/Design_Patterns/factory_pattern/FactoryPattern)
