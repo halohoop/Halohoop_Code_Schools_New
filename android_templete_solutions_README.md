@@ -25,3 +25,4 @@
 * + [add custom dialog templete class](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#002%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6%E5%AF%B9%E8%AF%9D%E6%A1%86)
 * + [死锁简单的Demo RecycleLockDemo.java](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#006%E6%AD%BB%E9%94%81%E7%AE%80%E5%8D%95%E7%9A%84demo-recyclelockdemojava)
 * + [在XML中使用属性动画模板](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#013%E5%9C%A8xml%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%E5%8A%A8%E7%94%BB%E6%A8%A1%E6%9D%BF)
+* +[面向切面编程的Demo工程](https://github.com/halohoop/AOPDemo)
