@@ -408,3 +408,9 @@ getLeft , getTop, getBottom, getRight,  这一组是获取相对在它父亲布�
             //表示最后一个显示出来了
         }
     }
+
+## 016.获取最小滑动距离touchslop
+
+---
+	//this --> Context
+    int scaledTouchSlop = ViewConfiguration.get(this).getScaledTouchSlop();
