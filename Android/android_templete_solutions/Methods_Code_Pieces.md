@@ -377,4 +377,21 @@ getLeft , getTop, getBottom, getRight,  这一组是获取相对在它父亲布�
     }
 
 
+## 014.ListView判断上滑下滑
 
+---
+    //1.implements AbsListView.OnScrollListener
+    //2.
+    private int mLastFirstVisibleItem = -1;
+    //3.
+    @Override
+    public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+        if (firstVisibleItem > mLastFirstVisibleItem) {
+            //表示mLastFirstVisibleItem上滑
+            Log.i(TAG, TAG + "onScroll: 表示上滑");
+        } else if (firstVisibleItem < mLastFirstVisibleItem) {
+            //表示下滑
+            Log.i(TAG, TAG + "onScroll: 表示下滑");
+        }
+        mLastFirstVisibleItem = firstVisibleItem;
+    }
