@@ -28,3 +28,4 @@
 * + [面向切面编程的Demo工程](https://github.com/halohoop/AOPDemo)
 * + [ListView判断上滑下滑](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#014listview%E5%88%A4%E6%96%AD%E4%B8%8A%E6%BB%91%E4%B8%8B%E6%BB%91)
 * + [ListView判断是否到最后一行](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#015listview%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E5%88%B0%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C)
+* + [获取最小滑动距离touchslop](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#016%E8%8E%B7%E5%8F%96%E6%9C%80%E5%B0%8F%E6%BB%91%E5%8A%A8%E8%B7%9D%E7%A6%BBtouchslop)
