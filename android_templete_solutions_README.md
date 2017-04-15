@@ -27,3 +27,4 @@
 * + [在XML中使用属性动画模板](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#013%E5%9C%A8xml%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%E5%8A%A8%E7%94%BB%E6%A8%A1%E6%9D%BF)
 * + [面向切面编程的Demo工程](https://github.com/halohoop/AOPDemo)
 * + [ListView判断上滑下滑](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#014listview%E5%88%A4%E6%96%AD%E4%B8%8A%E6%BB%91%E4%B8%8B%E6%BB%91)
+* + [ListView判断是否到最后一行](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#015listview%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E5%88%B0%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C)
