@@ -395,3 +395,16 @@ getLeft , getTop, getBottom, getRight,  这一组是获取相对在它父亲布�
         }
         mLastFirstVisibleItem = firstVisibleItem;
     }
+
+## 015.ListView判断是否到最后一行
+
+---
+    //1.implements AbsListView.OnScrollListener
+
+    //2.
+    @Override
+    public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+        if (firstVisibleItem + visibleItemCount == mNames.size() && totalItemCount > 0) {
+            //表示最后一个显示出来了
+        }
+    }
