@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/item_style"
+        android:text="Frame Animation" />
+
+    <Button
+        android:id="@+id/tv_frame_xml"
+        style="@style/item_style"
+        android:text="Frame Animation By Xml." />
+
+    <Button
+        android:id="@+id/tv_frame_code"
+        style="@style/item_style"
+        android:text="Frame Animation By Code." />
+
+    <include layout="@layout/anim_layout" />
+
+</LinearLayout>

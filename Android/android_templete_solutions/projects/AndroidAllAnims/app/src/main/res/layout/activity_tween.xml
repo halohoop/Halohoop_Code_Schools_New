@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/item_style"
+        android:text="Tween Animation" />
+
+    <LinearLayout style="@style/item_container_style">
+
+        <TextView
+            style="@style/item_style"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="alpha animation" />
+
+        <Button
+            android:id="@+id/tv_tween_alpha_xml"
+            style="@style/item_style"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="xml" />
+
+        <Button
+            android:id="@+id/tv_tween_alpha_code"
+            style="@style/item_style"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="code" />
+
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/item_container_style">
+
+        <TextView
+            style="@style/item_style"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="scale animation" />
+
+        <Button
+            android:id="@+id/tv_tween_scale_xml"
+            style="@style/item_style"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="xml" />
+
+        <Button
+            android:id="@+id/tv_tween_scale_code"
+            style="@style/item_style"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="code" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/item_container_style">
+
+        <TextView
+            style="@style/item_style"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="translate animation" />
+
+        <Button
+            android:id="@+id/tv_tween_trans_xml"
+            style="@style/item_style"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="xml" />
+
+        <Button
+            android:id="@+id/tv_tween_trans_code"
+            style="@style/item_style"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="code" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/item_container_style">
+
+        <TextView
+            style="@style/item_style"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="rotate animation" />
+
+        <Button
+            android:id="@+id/tv_tween_rota_xml"
+            style="@style/item_style"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="xml" />
+
+        <Button
+            android:id="@+id/tv_tween_rota_code"
+            style="@style/item_style"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="code" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tv_tween_custom"
+        style="@style/item_style"
+        android:text="Custom animation" />
+
+    <include layout="@layout/anim_layout" />
+
+</LinearLayout>

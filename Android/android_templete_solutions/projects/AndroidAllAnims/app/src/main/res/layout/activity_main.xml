@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.halohoop.androidallanims.MainActivity">
+
+    <Button
+        android:id="@+id/tv_frame"
+        style="@style/item_style"
+        android:text="FrameAnimation" />
+
+    <Button
+        android:id="@+id/tv_tween"
+        style="@style/item_style"
+        android:text="TweenAnimation" />
+
+    <Button
+        android:id="@+id/tv_pro"
+        style="@style/item_style"
+        android:text="PropertyAnimation" />
+
+    <Button
+        android:id="@+id/tv_tran"
+        style="@style/item_style"
+        android:text="TransitionAnimation" />
+
+</LinearLayout>
