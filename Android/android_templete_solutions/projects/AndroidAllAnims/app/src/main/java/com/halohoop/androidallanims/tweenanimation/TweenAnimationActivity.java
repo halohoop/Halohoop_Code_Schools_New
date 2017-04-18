@@ -16,9 +16,13 @@ public class TweenAnimationActivity extends AppCompatActivity implements View.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tween);
         findViewById(R.id.tv_tween_alpha_xml).setOnClickListener(this);
+        findViewById(R.id.tv_tween_alpha_code).setOnClickListener(this);
         findViewById(R.id.tv_tween_scale_xml).setOnClickListener(this);
-        findViewById(R.id.tv_tween_trans).setOnClickListener(this);
-        findViewById(R.id.tv_tween_rota).setOnClickListener(this);
+        findViewById(R.id.tv_tween_scale_code).setOnClickListener(this);
+        findViewById(R.id.tv_tween_trans_xml).setOnClickListener(this);
+        findViewById(R.id.tv_tween_trans_code).setOnClickListener(this);
+        findViewById(R.id.tv_tween_rota_xml).setOnClickListener(this);
+        findViewById(R.id.tv_tween_rota_code).setOnClickListener(this);
         findViewById(R.id.tv_tween_custom).setOnClickListener(this);
     }
 

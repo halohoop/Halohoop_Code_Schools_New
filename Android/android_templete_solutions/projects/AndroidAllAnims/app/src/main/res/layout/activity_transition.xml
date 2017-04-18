@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <TextView
         style="@style/item_style"
-        android:text="Transition Animation" />
-
-    <Button
-        android:id="@+id/tv_trans"
-        style="@style/item_style"
-        android:text="Execute Transition Animation"
-        android:textAllCaps="false" />
-
-    <include layout="@layout/anim_layout" />
+        android:text="见另一个Module:Application\nApp名字：BasicTransition" />
 
 </LinearLayout>
