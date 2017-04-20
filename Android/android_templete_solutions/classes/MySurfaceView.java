@@ -14,8 +14,6 @@ public class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback
 
     //SurfaceHolder
     private SurfaceHolder mHolder;
-    //用于绘图的Canvas
-    private Canvas mCanvas;
     //子线程标志位
     private boolean mIsDrawing;
 
@@ -39,7 +37,9 @@ public class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback
         setFocusable(true);
         setFocusableInTouchMode(true);
         this.setKeepScreenOn(true);
-        mHolder.setFormat(PixelFormat.OPAQUE);
+        //--让背景透明--
+        this.setZOrderOnTop(true);
+        mHolder.setFormat(PixelFormat.TRANSLUCENT);
     }
 
     private void initAttrs(AttributeSet attrs) {
@@ -60,28 +60,35 @@ public class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback
     }
 
     @Override
-    public void surfaceDestroyed(SurfaceHolder holder) {
+    public void surfaceDestroyed(SurfaceHolder holder) {//当view不可见的时候调用
         mIsDrawing = false;
     }
 
     @Override
     public void run(){
         while(mIsDrawing){
-            draw();
+            cyclingDraw();
         }
     }
 
-    private void draw(){
+    private void cyclingDraw(){
+        Canvas canvas = null;
         try {
-            mCanvas = mHolder.lockCanvas();
-            //draw something
+            canvas = mHolder.lockCanvas();
+            drawStuff(canvas);
         }catch (Exception e){
 
         }finally {
-            if(mCanvas!=null){
-                mHolder.unlockCanvasAndPost(mCanvas);//保证每次都能将内容提交
+            if(canvas!=null){
+                mHolder.unlockCanvasAndPost(canvas);//保证每次都能将内容提交
             }
         }
+    }
+
+    private void drawStuff(Canvas canvas){
+        //清屏
+        canvas.drawColor(Color.WHITE);
+
     }
 
 }
