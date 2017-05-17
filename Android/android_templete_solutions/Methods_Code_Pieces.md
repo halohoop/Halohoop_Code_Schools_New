@@ -414,3 +414,12 @@ getLeft , getTop, getBottom, getRight,  这一组是获取相对在它父亲布�
 ---
 	//this --> Context
     int scaledTouchSlop = ViewConfiguration.get(this).getScaledTouchSlop();
+
+## 017.打开浏览器浏览Url
+
+    private void openGitHub(String url) {
+        Intent intent = new Intent();
+        intent.setAction("android.intent.action.VIEW");
+        intent.setData(Uri.parse(url));
+        startActivity(intent);
+    }
