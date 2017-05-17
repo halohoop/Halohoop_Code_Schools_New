@@ -447,5 +447,6 @@ getLeft , getTop, getBottom, getRight,  这一组是获取相对在它父亲布�
 ###### 注意：
 
 * 如果界面有fragment，那么fragment的onConfigurationChanged方法执行在Activity的之前;
+* **这个onConfigurationChanged方法和onSaveInstanceState(Bundle outState)方法是对立的，设置了上述步骤，就不会执行后者。**
 
 ##
