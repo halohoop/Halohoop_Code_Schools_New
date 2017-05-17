@@ -423,3 +423,29 @@ getLeft , getTop, getBottom, getRight,  这一组是获取相对在它父亲布�
         intent.setData(Uri.parse(url));
         startActivity(intent);
     }
+
+## 018.Activity和Fragment的onConfigurationChanged(Configuration newConfig)方法。
+
+###### 执行条件，旋转屏幕然后↓：
+
+* 1.activity设置configChanges属性：
+######
+	android:configChanges="orientation|screenSize"
+
+* 2.设置权限（可能不是必须的）
+######
+	<uses-permission android:name="android.permission.CHANGE_CONFIGURATION"></uses-permission>
+
+* 3.重写onConfigurationChanged方法
+######
+	@Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        Utils.log("MainActivity onConfigurationChanged");
+    }
+
+###### 注意：
+
+* 如果界面有fragment，那么fragment的onConfigurationChanged方法执行在Activity的之前;
+
+##
