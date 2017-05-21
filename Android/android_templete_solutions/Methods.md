@@ -70,3 +70,13 @@
 
 	        return bitmap;
 	    }
+
+## 根据百分比取得两个数之间的值
+	
+	/**
+	 * Linear interpolate between a and b with parameter t.
+	 * 根据t的百分比返回a到b之间值
+	 */
+	private static float lerp(float a, float b, @FloatRange(from = 0.0, to = 1.0)float t) {
+	    return a + (b - a) * t;
+	}
