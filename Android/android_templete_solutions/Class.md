@@ -34,5 +34,5 @@
 ## 006.死锁简单的Demo RecycleLockDemo.java
 * [RecycleLockDemo.java](./classes/RecycleLockDemo.java)
 
-## 007.Path解析工具类PathParser.java
+## 007.SVG文件Path解析工具类PathParser.java
 * [PathParser.java](./classes/PathParser.java)
