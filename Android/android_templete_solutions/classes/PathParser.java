@@ -1,4 +1,4 @@
-package com.dongnao.alvin.ls12_chinamap;
+package com.halohoop.utils;
 
 import android.graphics.Path;
 import android.util.Log;
