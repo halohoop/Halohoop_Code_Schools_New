@@ -80,3 +80,30 @@
 	private static float lerp(float a, float b, @FloatRange(from = 0.0, to = 1.0)float t) {
 	    return a + (b - a) * t;
 	}
+
+## 合并两个数组
+
+	/**
+	 * 两个数组合并
+	 * @param arrayLhs
+	 * @param arrayRhs
+     * @return
+     */
+	private static Object combineArray(Object arrayLhs, Object arrayRhs) {
+		Class<?> localClass = arrayLhs.getClass().getComponentType();
+		int i = Array.getLength(arrayLhs);
+		int j = i + Array.getLength(arrayRhs);
+		Object result = Array.newInstance(localClass, j);
+		for (int k = 0; k < j; ++k) {
+			if (k < i) {
+				Array.set(result, k, Array.get(arrayLhs, k));
+			} else {
+				Array.set(result, k, Array.get(arrayRhs, k - i));
+			}
+		}
+		return result;
+	}
+	/*
+	 * //	[12345] [9876]
+	 * //最终变成	[9876  12345]
+	*/
