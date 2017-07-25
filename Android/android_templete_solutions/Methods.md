@@ -107,3 +107,32 @@
 	 * //	[12345] [9876]
 	 * //最终变成	[9876  12345]
 	*/
+
+
+## 获取android机Mac地址
+
+	public static String getMac() {
+	    try {
+	        //require permission of internet
+	        //<uses-permission android:name="android.permission.INTERNET" />
+	        List<NetworkInterface> networkInterfaces = Collections.list(NetworkInterface.getNetworkInterfaces());
+	        for (NetworkInterface networkInterface : networkInterfaces) {
+	            if (!networkInterface.getName().equalsIgnoreCase("wlan0")) continue;
+	            byte[] macBytes = networkInterface.getHardwareAddress();
+	            if (macBytes == null) {
+	                return null;
+	            }
+	            StringBuilder mac = new StringBuilder();
+	            for (byte b : macBytes) {
+	                mac.append(String.format("%02X:", b));
+	            }
+	            if (mac.length() > 0) {
+	                mac.deleteCharAt(mac.length() - 1);
+	            }
+	            return mac.toString();
+	        }
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+	    return null;
+	}
