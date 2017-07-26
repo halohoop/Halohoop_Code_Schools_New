@@ -35,3 +35,4 @@
 * + [SVG文件Path解析工具类PathParser.java](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#007path%E8%A7%A3%E6%9E%90%E5%B7%A5%E5%85%B7%E7%B1%BBpathparserjava)
 * + [合并两个数组](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods.md#合并两个数组)
 * + [获取android机mac地址](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods.md#获取android机mac地址)
+* + [判断进程是否运行](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods.md#判断进程是否运行) + [判断某个服务是否正在运行的方法](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Methods.md#判断某个服务是否正在运行的方法)
